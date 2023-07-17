@@ -4,7 +4,8 @@
   "description": "React hooks to manage state that works with `sessionStorage`",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc -p tsconfig.json",
+    "format": "prettier -w lib/**/*.ts"
   },
   "repository": {
     "type": "git",
