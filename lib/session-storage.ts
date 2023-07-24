@@ -1,10 +1,7 @@
 import { NoWindowError } from "./errors";
 import {
-  CHANGE_SESSION_STORAGE_ITEM_EVENT_TYPE,
   ChangeSessionStorageItemEvent,
-  addChangeSessionStorageItemEventListener,
   dispatchChangeSessionStorageItemEvent,
-  removeChangeSessionStorageItemEventListener,
 } from "./events";
 import {
   ChangeSessionStorageItemEventListener,

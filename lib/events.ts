@@ -6,7 +6,6 @@ import type {
   ChangeSessionStorageItemEventListener,
   SessionStorageKey,
   SessionStorageValue,
-  StorageEventListener,
 } from "./types";
 
 export const CHANGE_SESSION_STORAGE_ITEM_EVENT_TYPE =
